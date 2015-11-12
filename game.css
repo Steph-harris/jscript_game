@@ -1,7 +1,22 @@
+body {
+	background-image: url('images/concrete_seamless.png'); 
+}
+header {
+	text-align: center;
+}
+.btn {
+	display: block;
+	clear:left;
+	padding: 5px 20px;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
 div {
 	display: inline-block;
+	padding-right: 1%;
+	padding-bottom: 1%;
 }
 img {
-	height: 200px;
-	width:200px;
+	height: 183px;
+	width:183px;
 }
