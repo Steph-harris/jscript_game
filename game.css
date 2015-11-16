@@ -11,12 +11,18 @@ header {
   margin-bottom: 10px;
   font-size: 30px;
 }
+.btn-danger {
+	color: #EDEDED;
+}
 div {
 	display: inline-block;
 	padding-right: 1%;
 	padding-bottom: 1%;
 }
 img {
-	height: 183px;
-	width:183px;
+	height: 110px;
+	width:110px;
+}
+.container-fluid, .row-fluid {
+	padding: 0;
 }
