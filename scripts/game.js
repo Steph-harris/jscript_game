@@ -7,7 +7,7 @@ function startGame(){
   alert("Don't forget to click DIFFERENT faces!");
   setTimeout(function(){ 
     if(picCounter < 10) {
-      alert("Well, that wasn't THAT terrible...I guess. You only clicked " + picCounter + " faces."); 
+      alert("Well, that wasn't THAT terrible...I guess, but you only clicked " + picCounter + " faces."); 
     } else{
       alert("Great Job! You clicked " + picCounter + " faces!"); 
     }
