@@ -1,15 +1,18 @@
-debugger;
+
 var pics = document.getElementsByClassName("img-circle");
 var picCounter= 0;
 var tglBtn = document.getElementsByClassName("btn-danger");
   
 function startGame(){
-  alert("Don't forget to click DIFFERENT faces!");
+  //alert("Don't forget to click DIFFERENT faces!");
+  swal( 'Dont forget to click DIFFERENT faces!');
   setTimeout(function(){ 
     if(picCounter < 10) {
-      alert("Well, that wasn't THAT terrible...I guess, but you only clicked " + picCounter + " faces."); 
+      swal("Well, that wasn't THAT terrible...I guess",
+        "but you only clicked " + picCounter + " faces."); 
     } else{
-      alert("Great Job! You clicked " + picCounter + " faces!"); 
+      swal("Great Job!",
+        " You clicked " + picCounter + " faces!"); 
     }
   }, 20000);
 }
@@ -25,4 +28,6 @@ for(var i = 0; i < pics.length; i++) {
 }
 
 tglBtn[0].addEventListener("click", startGame);
+
+
 
